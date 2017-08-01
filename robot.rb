@@ -5,6 +5,7 @@ class Robot
     @todos = []
   end
 
+  # he goal of this method is to return the station number that the rbot should go to
   def station
     if needs_repairs && foreign_model
       return 1
